@@ -507,7 +507,7 @@ class Alloc {
         return true;
     }
 
-    void calcAlloc() {
+    void calc() {
         rule4();
         rule7();
         rule1();
@@ -535,8 +535,8 @@ public:
         memset(deferred, 0, sizeof(deferred));
     }
 
-    void calc() {
-        calcAlloc();
+    void calcAlloc() {
+        calc();
     }
 
     void printSummary() const {
@@ -596,7 +596,7 @@ int main() {
     for (int i = 0; i < 125; i++) res[i] = 2;
 
     Alloc a(res);
-    a.calc();
+    a.calcAlloc();
     a.printSummary();
     cout << remTypes.size() << '\n';
     return 0;
