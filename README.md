@@ -29,13 +29,13 @@ Unlike standard fair division, an agent derives value not only from items they r
 
 Formally:
 
-\[
+$$
 V_i(\pi) = \sum_{a \in A} V_i(\pi(a), a)
-\]
+$$
 
-where:
-- \(\pi(a)\) is the agent receiving item \(a\),
-- \(V_i(j, a)\) is the value agent \(i\) gets when item \(a\) is assigned to agent \(j\).
+Here:
+- $\pi(a)$ is the agent receiving item $a$
+- $V_i(j,a)$ is the value agent $i$ gets when item $a$ is assigned to agent $j$
 
 ---
 
