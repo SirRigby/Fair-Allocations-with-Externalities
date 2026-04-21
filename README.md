@@ -9,7 +9,7 @@ This repository contains C++ implementations of algorithms for **fair allocation
 ---
 
 
-This project was developed as part of **CS656: Algorithmic Game Theory / Computational Social Choice** under **Prof. Sunil Simon**.
+This project was developed as part of **CS656: Algorithmic Game Theory** under **Prof. Sunil Simon**.
 
 The goal of the project was to:
 - understand fairness notions under **externalities**,
